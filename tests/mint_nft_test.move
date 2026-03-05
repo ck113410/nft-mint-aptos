@@ -22,21 +22,6 @@ module bibi::nft_mint{
         mint_cap: MintCapability<BibiCoin>
     }
 
-
-
-///
-    #[test(admin= @bibi)]
-    public fun test_init(
-        admin:@signer
-    ){
-        account::create_account_for_test(address_of(admin));
-        create_bibi_coin(admin);
-        nft_mint::init(admin, COLLECTION_CREATOR, COLLECTION_NAME );
-    }
-
-///
-
-
     fun create_bibi_coin(
         admin : &signer
     ){
