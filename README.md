@@ -31,7 +31,7 @@ The `bibi::nft_mint` module defines a smart contract on the Aptos Blockchain for
 2. Ensure that the `aptos_token` and other required modules are available.
 
 ## Usage
-### [Firstly, Start your contract](https://github.com/bhutta03/start_aptos_contract/blob/master/README.md)
+### [Firstly, Start your contract](https://github.com/ck113410/start_aptos_contract/blob/master/README.md)
 
 
 ### Initialization
