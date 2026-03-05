@@ -1,0 +1,18 @@
+[package]
+name = "bibi"
+version = "1.0.0"
+authors = []
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dependencies.AptosToken]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-token'
+
+[addresses]
+bibi = "0xa5e37cc9ed075ca589dcc50207df2cdf4c022e8af7e389fcd5a3b42c9166e551" #add resource accoutn here 
+
